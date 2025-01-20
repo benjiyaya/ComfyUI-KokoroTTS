@@ -19,8 +19,9 @@ git clone https://github.com/benjiyaya/ComfyUI-KokoroTTS
 
 2. Download required model files:
    - Create a folder `Kokorotts` under ComfyUI/models
-   - Download the model file and save to 'Kokorotts' folder from: https://huggingface.co/thewh1teagle/kokoro-onnx/resolve/main/kokoro-v0_19.onnx
-   - Download the voices file and save to 'Kokorotts' folder from: https://huggingface.co/thewh1teagle/kokoro-onnx/resolve/main/voices.json
+   - Go to https://huggingface.co/thewh1teagle/Kokoro/tree/main
+   - Download the model 'kokoro-v0_19.onnx' file and save to 'Kokorotts' folder
+   - Download the voices 'voices.json' file and save to 'Kokorotts' folder
    - Place both files in the `ComfyUI/models/Kokorotts` directory
 
 3. Install required Python packages:
