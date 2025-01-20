@@ -14,7 +14,7 @@ A custom node for ComfyUI that provides Text-to-Speech capabilities using the Ko
 1. Clone this repository into your ComfyUI custom nodes directory:
 ```bash
 cd ComfyUI/custom_nodes
-git clone [repository-url] kokoro-tts
+git clone https://github.com/benjiyaya/ComfyUI-KokoroTTS
 ```
 
 2. Download required model files:
@@ -25,7 +25,7 @@ git clone [repository-url] kokoro-tts
 
 3. Install required Python packages:
 ```bash
-pip install kokoro-onnx torch numpy
+pip install requirements.txt
 ```
 
 ## Available Voices
