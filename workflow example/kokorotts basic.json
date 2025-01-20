@@ -1,0 +1,147 @@
+{
+  "last_node_id": 13,
+  "last_link_id": 16,
+  "nodes": [
+    {
+      "id": 12,
+      "type": "Kokoro TextToSpeech",
+      "pos": [
+        2656.704345703125,
+        -177.1471405029297
+      ],
+      "size": [
+        414.5303039550781,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 16,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Kokoro TextToSpeech"
+      },
+      "widgets_values": [
+        "hey, you are watching Benji's Youtube channel! This is Text To Speech using Kokoro in ComfyUI.",
+        "bf_emma"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "PreviewAudio",
+      "pos": [
+        3140.93310546875,
+        -192.83526611328125
+      ],
+      "size": [
+        315,
+        76
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 12
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        null
+      ]
+    },
+    {
+      "id": 13,
+      "type": "StringConstantMultiline",
+      "pos": [
+        2250.571533203125,
+        -232.46902465820312
+      ],
+      "size": [
+        375.0016784667969,
+        112.50588989257812
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            16
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringConstantMultiline"
+      },
+      "widgets_values": [
+        "hey! wake up! Let's go party!",
+        true
+      ]
+    }
+  ],
+  "links": [
+    [
+      12,
+      12,
+      0,
+      7,
+      0,
+      "AUDIO"
+    ],
+    [
+      16,
+      13,
+      0,
+      12,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.0307957535137728,
+      "offset": [
+        -2072.4644686541455,
+        506.8365910852921
+      ]
+    },
+    "node_versions": {
+      "ComfyUI-KokoroTTS": "dfedb52658c267b0a4be9b452df96de8ca6d2caf",
+      "comfy-core": "0.3.10",
+      "ComfyUI-KJNodes": "3d6b72f28d5ed27e13a512369681e103ff42d534"
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}
