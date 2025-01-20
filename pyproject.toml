@@ -1,0 +1,15 @@
+[project]
+name = "kokorotts"
+description = "A custom node for ComfyUI that provides Text-to-Speech capabilities using the Kokoro TTS engine."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["kokoro-onnx", "onnxruntime", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/benjiyaya/ComfyUI-KokoroTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-KokoroTTS"
+Icon = ""
