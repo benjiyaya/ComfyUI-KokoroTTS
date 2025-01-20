@@ -2,6 +2,17 @@
 
 A custom node for ComfyUI that provides Text-to-Speech capabilities using the Kokoro TTS engine.
 
+![image](https://github.com/user-attachments/assets/825b2c91-adc2-45da-a515-12ae288386d1)
+The basic TTS 
+
+![image](https://github.com/user-attachments/assets/aab8476a-e0cb-4110-ab62-7e80b79dce0f)
+TTS with LatentSync for Lipsync
+
+
+https://github.com/user-attachments/assets/55a1cd18-ec8f-4127-8ee6-62c68e493b30
+
+Example Result.
+
 ## Features
 
 - High-quality text-to-speech synthesis
