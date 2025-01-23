@@ -44,7 +44,7 @@ or
 if you are using window protable version.
 
 Go to 'ComfyUI_windows_portable' folder
- run the command : "python_embeded\python.exe -m pip install ComfyUI \custom_nodes\ComfyUI-KokoroTTS\requirements.txt"
+ run the command : "python_embeded\python.exe -m pip install ComfyUI\custom_nodes\ComfyUI-KokoroTTS\requirements.txt"
 
 ```
 
