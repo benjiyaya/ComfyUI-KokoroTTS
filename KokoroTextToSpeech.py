@@ -9,8 +9,7 @@ from tqdm import tqdm
 
 logger = logging.getLogger(__name__)
 
-MODEL_URL = "https://huggingface.co/thewh1teagle/kokoro-onnx/resolve/main/kokoro-v0_19.onnx"
-VOICES_URL = "https://huggingface.co/thewh1teagle/kokoro-onnx/resolve/main/voices.json"
+
 
 AVAILABLE_SPEAKERS = [
     "af",
@@ -56,7 +55,7 @@ class KokoroTextToSpeech:
         if not os.path.exists(self.model_path) or not os.path.exists(self.voices_path):
             logger.error(
                 f"ERROR: model or voice file not found. Please download them manually from "
-                f"{MODEL_URL} and {VOICES_URL} and place them in the ComfyUI/models/Kokorotts folder. "
+                f"Model and Voices place them in the ComfyUI/models/Kokorotts folder. "
                 f"model_path: {self.model_path}, voices_path: {self.voices_path}"
             )
             return False
