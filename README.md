@@ -37,14 +37,14 @@ git clone https://github.com/benjiyaya/ComfyUI-KokoroTTS
 
 3. Install required Python packages:
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 
 or
 
 if you are using window protable version.
 
 Go to 'ComfyUI_windows_portable' folder
- run the command : "python_embeded\python.exe -m pip install ComfyUI\custom_nodes\ComfyUI-KokoroTTS\requirements.txt"
+ run the command : "python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KokoroTTS\requirements.txt"
 
 ```
 
