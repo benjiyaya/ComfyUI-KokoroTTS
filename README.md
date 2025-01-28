@@ -51,13 +51,13 @@ Go to 'ComfyUI_windows_portable' folder
 ## Available Voices
 
 The following voices are available:
-- af (African Female)
-- af_sarah (African Female Sarah)
-- af_bella (African Female Bella)
-- af_nicole (African Female Nicole)
-- af_sky (African Female Sky)
-- am_adam (African Male Adam)
-- am_michael (African Male Michael)
+- af (American Female)
+- af_sarah (American Female Sarah)
+- af_bella (American Female Bella)
+- af_nicole (American Female Nicole)
+- af_sky (American Female Sky)
+- am_adam (American Male Adam)
+- am_michael (American Male Michael)
 - bf_emma (British Female Emma)
 - bf_isabella (British Female Isabella)
 - bm_george (British Male George)
